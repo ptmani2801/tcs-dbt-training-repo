@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: project_dbt
+    schema: raw
+
+    tables:
+      - name: source_freshness_table
+        loaded_at_field: "convert_timezone('America/Los_Angeles', 'UTC', created_at)"
+        freshness:
+          warn_after:
+            count: 17
+            period: minute
+          error_after:
+            count: 20
+            period: minute

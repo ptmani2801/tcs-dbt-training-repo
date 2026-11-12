@@ -1,0 +1,39 @@
+airdnbproject:
+  outputs:
+    dev:
+      account: zefkdvl-jm53679
+      database: PROJECT_DBT
+      password: Tanmaimani44//
+      role: accountadmin
+      schema: core
+      threads: 4
+      type: snowflake
+      user: adminuser
+      warehouse: compute_wh
+  target: core
+jaffle_shop:
+  outputs:
+    dev:
+      account: jnttdxb-bh34312
+      database: airbnb
+      password: doe
+      role: dbt_developers
+      schema: dev
+      threads: 16
+      type: snowflake
+      user: dbt_u1
+      warehouse: dbt_warehouse
+  target: dev
+project_dbt1:
+  outputs:
+    dev:
+      account: zefkdvl-jm53679
+      database: PROJECT_DBT
+      password: Tanmaimani44//
+      role: ACCOUNTADMIN
+      schema: CORE
+      threads: 4
+      type: snowflake
+      user: ptmani
+      warehouse: COMPUTE_WH
+  target: dev
