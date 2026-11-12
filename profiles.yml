@@ -6,7 +6,7 @@ deploy_dbt_airbnb:
       account: zefkdvl-jm53679
 
       # User/password auth
-      user: adminuser
+      user: ptmani
       password: Tanmaimani44//
 
       role: accountadmin
@@ -22,7 +22,7 @@ deploy_dbt_airbnb:
       account: zefkdvl-jm53679
 
       # User/password auth
-      user: adminuser
+      user: ptmani
       password: Tanmaimani44//
 
       role: accountadmin
